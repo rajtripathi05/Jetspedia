@@ -1,96 +1,20 @@
-✈️ Military Aircraft Intelligence Database
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-An open-source military aircraft intelligence platform presenting publicly available aviation and defense data through a clean catalog and detailed analysis views.
+# Run and deploy your AI Studio app
 
-📌 Overview
+This contains everything you need to run your app locally.
 
-This project is a web-based intelligence-style database designed to organize and present information about modern and legacy military aircraft. It focuses on clarity, neutrality, and structured presentation, inspired by defense analysis and OSINT-style reporting.
+View your app in AI Studio: https://ai.studio/apps/drive/1Fos8PuvduJwOlAOenZyXNFK_9RHXo920
 
-The application provides:
+## Run Locally
 
-A catalog view for browsing aircraft
-
-Detailed intelligence pages for individual platforms
-
-Performance assessments and comparative insights
-
-A clean, analyst-friendly UI
-
-All information is based on publicly available sources, with estimates clearly implied where exact figures are unavailable.
-
-🧠 Features
-
-Aircraft catalog with key metadata (country, generation, role)
-
-Detailed aircraft intelligence pages
-
-Technical profiles and capability summaries
-
-Performance ratings across multiple dimensions
-
-Comparative analysis with peer aircraft
-
-Responsive, modern interface
-
-Static deployment via Firebase Hosting
-
-🛠 Tech Stack
-
-Frontend: React + TypeScript
-
-Build Tool: Vite
-
-Styling: Tailwind CSS
-
-Hosting: Firebase Hosting
-
-🚀 Deployment
-
-The project is deployed as a static site using Firebase Hosting.
-
-Build
-npm install
-npm run build
-
-Deploy
-firebase deploy
+**Prerequisites:**  Node.js
 
 
-Firebase serves the production-ready files from the dist/ directory.
-
-📁 Project Structure (Simplified)
-├── index.html
-├── index.tsx
-├── App.tsx
-├── components/
-├── data.ts
-├── dist/            # Production build output
-├── firebase.json
-├── package.json
-└── vite.config.ts
-
-⚖️ Data & Disclaimer
-
-All information is derived from open-source and publicly available material
-
-Performance ratings are indicative, not definitive
-
-This project does not represent classified, proprietary, or restricted information
-
-Content is presented with a neutral geopolitical tone
-
-🎯 Use Cases
-
-Defense and aviation research demos
-
-OSINT-style data presentation
-
-Academic or portfolio projects
-
-UI/UX exploration for analytical dashboards
-
-📄 License
-
-This project is open-source and intended for educational and demonstrative purposes.
-
-If you want, I can also:
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
